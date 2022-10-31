@@ -1,0 +1,20 @@
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+    width: 100vw;
+    height: 100vh;
+    margin-top: -10px;
+}
+.block>div{
+    max-width: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+}
+body{
+    background-image: url("https://th.bing.com/th/id/OIP.rw65hopms6GhCYCb5-7AJgHaEK?pid=ImgDet&rs=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
