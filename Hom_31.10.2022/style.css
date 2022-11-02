@@ -1,0 +1,49 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~Homework 1~~~~~~~~~~~~~~~~~~~~~~~~~~~  */
+
+/* ~~~~~~Task 1~~~~~~ */
+/* table, tr, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding:20px;
+    text-align: center;
+}
+.yellow{
+    background-color: rgb(231, 195, 35);
+}
+td{
+    background-color: grey;;
+}
+.num{
+    background-color:rgb(47, 96, 241);
+}
+.green > td{
+    background-color: green;
+}
+.g1{
+    text-align: right;
+} */
+
+
+/* ~~~~~~Task 2~~~~~~ */
+/* table, tr, th, td{
+    border: 2px solid grey;
+    border-collapse: collapse;
+    padding:5px;
+    text-align: center;
+}
+.special{
+    padding:40px;
+} */
+
+
+/* ~~~~~~Task 3~~~~~~ */
+/* table, tr, th, td{
+    border: 2px solid grey;
+    border-collapse: collapse;
+    padding:20px;
+    text-align: center;
+}
+img{
+    width:150px;
+
+} */
