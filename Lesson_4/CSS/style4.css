@@ -1,0 +1,136 @@
+body{
+    background: linear-gradient(90deg, grey, white);
+    padding:10px;
+}
+.text{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top:5px;
+}
+.month{
+    position:absolute;
+    top:35px;
+}
+.time{
+    display: flex;
+    flex-direction: row;
+    left:500px;
+    position: absolute;
+}
+.time > p{
+    top:10px;
+    left:57px;
+    position: absolute;
+
+}
+.black{
+    background-color: black;
+    height:300px;
+    width:250px;
+    top:125px;
+    left:550px;
+    position: absolute;
+    z-index: 1;
+    box-shadow: 10px 5px 5px grey;
+}
+.black > p{
+    color:white;
+    font-size: 50px;
+    font-weight:lighter;
+    position:absolute;
+    left:220px;
+    top:-65px;
+}
+.city{
+    font-size: 15px!important;
+    position:absolute;
+    top:-10px!important;
+    left:10px!important;
+}
+#cloud{
+    position: absolute;
+    top:50px;
+    left:50px;
+}
+.black > h1{
+    color:white;
+    position:absolute;
+    font-size: 60px;
+    top:190px;
+    left:10px;
+}
+.left, .right{
+    background-color: grey;
+    width:50px;
+    height:50px;
+    font-size: 50px;
+}
+.left{
+    position: absolute;
+    left:-50px;
+    top:50px;
+    border-right:1px solid white;
+}
+.left > p{
+    position: absolute;
+    top:-50px;
+}
+.d{
+    display: flex;
+    flex-direction: row;
+}
+.data1, .data2{
+    font-size:20px!important;
+    color:lightgray;
+    font-size: 50px;
+    font-weight:lighter;
+}
+.data1{
+    position:absolute;
+    left:145px;
+    top:250px;
+}
+.data2{
+    position:absolute;
+    left:160px;
+    top:250px;
+}
+.white{
+    background-color: rgb(232, 232, 232);
+    width: 200px;
+    height:100px;
+    position:absolute;
+    left:700px;
+    top:400px;
+    z-index: 0;
+    box-shadow: 10px 5px 5px grey;
+}
+.x{
+    position:absolute;
+    top:-65px;
+    left:175px;
+    font-size: 50px;
+}
+.temp,  .days{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top:20px;
+    color:lightgray;
+}
+.temp > p{
+    color:black;
+    margin-top:-35px;
+    margin-left:10px;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(110deg, #72726b, black);
+    position:absolute;
+    top:450px;
+    left:550px;
+    box-shadow: 5px 5px 5px grey;
+}

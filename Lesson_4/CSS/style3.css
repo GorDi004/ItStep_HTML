@@ -1,0 +1,40 @@
+#back{
+    position:absolute;
+    z-index: 0;
+}
+#p1{
+    position: absolute;
+    top:565px;
+    left:100px;
+    z-index:2;
+}
+#p5{
+    position: absolute;
+    top:265px;
+    left:390px;
+    z-index:1;
+}
+#p6{
+    position: absolute;
+    top:190px;
+    left:250px;
+    z-index:1;
+}
+#p3{
+    position: absolute;
+    top:365px;
+    left:790px;
+    z-index:1;
+}
+#p2{
+    position: absolute;
+    top:365px;
+    left:990px;
+    z-index:1;
+}
+#p4{
+    position: absolute;
+    top:565px;
+    left:910px;
+    z-index:2;
+}

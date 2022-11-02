@@ -1,0 +1,37 @@
+th{
+    width:50px;
+    margin:5px;
+    padding:10px;
+}
+.th1{
+    background-color: rgb(197, 197, 55);
+    color:white;
+}
+.th2{
+    background-color: rgb(252, 184, 57);
+    color:white;
+}
+.th3{
+    background-color: orange;
+    color:white;
+}
+.th4{
+    background-color: red;
+    color:white;
+}.th5{
+    background-color: rgb(130, 8, 8);
+    color:white;
+}
+.tr1{
+    background-color: rgb(242, 118, 118);
+}
+tr{
+    background-color: rgb(252, 193, 193);
+    text-align: center;
+}
+.td{
+    background-color: rgb(194, 35, 35);
+    color:white;
+    text-align: center;
+    padding:10px;
+}

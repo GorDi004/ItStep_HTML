@@ -1,0 +1,61 @@
+body{
+    margin:0;
+}
+.navbar > ul{
+    display: flex;
+    list-style: none;
+    margin-block-start: 0!important;
+    margin-block-end: 0!important;
+    margin-inline-start: 0px!important;
+    margin-inline-end: 0px!important;
+    padding-inline-start: 0!important;
+}
+.navbar > ul > li{
+    margin: 0 1% 0 1%;
+    color: white;
+}
+.navbar{
+    background-color: rgb(5, 38, 111);
+    width: 100vw;
+    position: relative;
+    left: -10px;
+    top:-10px;
+    padding: 10px 0 10px 0;
+}
+.content{
+    display: flex;
+    justify-content: inherit;
+    margin:-10px 0 0 0;
+    height:500px;
+    width:auto;
+}
+.left{
+    display:flex;
+    border:1px solid black;
+    margin:0;
+    width: 50%;
+    background-image: url("https://play-lh.googleusercontent.com/qyfXLNVM_cLm8NkYX7ZtNBPPnBmu1OJj0nFkaZvAg3HAFf8EzsGuwP_cNvZ6uneTEQI");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+}
+.left > .list > ul{
+    list-style-type: none;
+    background-color: white;
+}
+.list > ul{
+    padding:50px 20px 50px 100px;
+    border: 1px solid black;
+}
+
+.right{
+    border:1px solid black;
+
+}
+footer{
+    background-color: rgb(25, 74, 182);
+    width: 100vw;
+    height: 50vh;
+}
