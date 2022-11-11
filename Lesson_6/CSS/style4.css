@@ -1,0 +1,39 @@
+img{
+    height:200px;
+    width:100px;
+    animation-duration: 5s;
+    animation-name: image;
+    animation-iteration-count: infinite;
+    margin-left: 100px;
+}
+@keyframes image{
+    0%{
+    transform: rotate(15deg);
+    }
+    10%{
+        transform: rotate(0deg);
+        height:150px;
+        width:100px;
+    }
+    30%{
+        transform: rotate(-30deg);
+        margin-top: 150px;
+        height:100px;
+        width:100px;
+    }
+    40%{
+        transform: rotate(0deg);
+        margin-top:50px;
+        height:200px;
+    }
+    50%{
+        transform: rotate(-45deg);
+    }
+    53%{
+        transform: rotate(45deg);
+        
+    }
+    56%{
+        transform: rotate(-45deg);
+    }
+}

@@ -1,0 +1,44 @@
+body{
+    padding:20px;
+}
+
+.circle1{
+    background-color: #ccabdb;
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    position:absolute;
+    z-index:0;
+    left:50px;
+}
+.circle2, .circle3{
+    background-color: #3498da;
+    width:70px;
+    height:70px;
+    border-radius: 50%;
+    position:absolute;
+    z-index: 1;
+    top:45px;
+}
+.circle2{
+    animation-duration: 5s;
+    animation-name: first;
+    animation-iteration-count: infinite;
+}
+.circle3{
+    left:100px;
+    animation-duration: 5s;
+    animation-name: second;
+    animation-iteration-count: infinite;
+}
+@keyframes first{
+    50%{
+        transform:translate(90px, 0);
+        background-color: #3174a4;
+    }
+}
+@keyframes second{
+    50%{
+        transform:translate(-90px, 0);
+    }
+}
