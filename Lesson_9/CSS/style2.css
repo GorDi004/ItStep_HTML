@@ -1,0 +1,54 @@
+body{
+    height: 100vh;
+    display:grid;
+    grid-template-areas:
+    "logo menu"
+    "main aside"
+    "sponsor sponsor"
+    "footer footer";
+    grid-template-columns: 12rem 1fr;
+    grid-template-rows: 5rem 1fr 3rem;
+  
+  }
+  
+      @media screen and (max-width:600px){
+     
+     body{
+        grid-template-areas:
+      "header"
+      "menu"
+      "content"
+      "footer";
+      grid-template-columns: 1fr;
+      grid-template-rows: 5rem auto 1fr 3rem;
+      
+    }
+}
+ 
+  body > *{
+    padding:1rem;
+    border:1px solid goldenrod;
+  }
+  
+  .logo{
+    grid-area: header;
+    margin-left:200px;
+    border:1px solid goldenrod;
+    text-align: right;
+    
+}
+  .menu{
+    grid-area: header;
+  }
+  .main{
+    grid-area:menu;
+  }
+  .aside{
+    grid-area:menu;
+  }
+  .aside{
+    grid-area:menu;
+  }
+  footer{
+    grid-area: footer;
+  }

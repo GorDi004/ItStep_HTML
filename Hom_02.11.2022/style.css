@@ -103,6 +103,7 @@ body{
 .header{
     display:flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 img{
     position:absolute;
@@ -127,4 +128,117 @@ p{
 }
 .column2 > h3{
     margin-top:0;
+}
+.column3{
+    text-align: right;
+}
+.div{
+    display:flex;
+    width:225px;
+    margin-left: 270px;
+}
+.div > input{
+    height:20px;
+}
+#green{
+    color:green;
+}
+#brown{
+    color:brown;
+}
+.buttons, .first, .last{
+    display: flex;
+    flex-direction: row;
+}
+.button{
+    background-color: #a76500;
+    padding:10px;
+    width:125px;
+    color:white;
+    margin:2px;
+    text-align: center;
+}
+.last{
+    margin-left: 15px;
+}
+.last > .button{
+    width:80px;
+}
+#gray{
+    background-color: #e2d7b9;
+    color:#aca18b;
+}
+.last > svg{
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+th{
+    font-weight: lighter;
+    width:90px;
+}
+#th1{
+    border-bottom:4px solid #556980;
+}
+#th2{
+    border-bottom:4px solid #3c4f6d ;
+}
+#th3{
+    border-bottom:4px solid #916130;
+}
+#th4{
+    border-bottom:4px solid #4175a8;
+}
+#th5{
+    border-bottom:4px solid #7b746b;
+}
+#th6{
+    border-bottom:4px solid #751f1e;
+}
+#th7{
+    border-bottom:4px solid #322b23;
+}
+#th8{
+    border-bottom:4px solid #892229;
+}
+#th9{
+    border-bottom:4px solid #95a559;
+}
+#th10{
+    border-bottom:4px solid #802529;
+}
+#th11{
+    border-bottom:4px solid #6382af;
+}
+#th12{
+    border-bottom:4px solid #91622a;
+}
+#th13{
+    border-bottom:4px solid #262019;
+}
+#th14{
+    border-bottom:4px solid #8958e3;
+}
+#th15{
+    border-bottom:4px solid #0a0300;
+}
+#th16{
+    border-bottom:4px solid #090200;
+}
+#th17{
+    border-bottom:4px solid #5c0e91;
+}
+td{
+    text-align: center;
+    padding:5px;
+    color:white;
+}
+#red{
+    background: linear-gradient(70deg, #b83a2c, #bf4331,#b83a2c, #bf4331,#b83a2c, #bf4331,#b83a2c, #bf4331,#b83a2c, #bf4331,#b83a2c );
+}
+#green2{
+    background: linear-gradient(to right, #807500, #696d0c, #807500, #696d0c, #807500, #696d0c, #807500, #696d0c, #807500, #696d0c, #807500);
+}
+#green3{
+    background-color: green;
 }
