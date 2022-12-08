@@ -1,0 +1,33 @@
+body{
+    background-image: url("https://www.teahub.io/photos/full/109-1098339_photo-wallpaper-scissors-fingers-comb-hairdresser-hands-cutting.jpg");
+    background-size: cover;
+    color:white;
+    margin: 0;
+    overflow-x: hidden;
+}
+.text{
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin:0 50px;
+}
+.card{
+    background-color: aliceblue;
+    color:black;
+    padding:20px 100px;
+    width: fit-content;
+    border-radius: 15px;
+    margin:20px;
+}
+.footer{
+    margin:0;
+    margin-top:45px;
+    text-align: center;
+    background-color: rgb(42, 42, 42);
+    padding:10px;
+}
