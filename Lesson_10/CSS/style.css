@@ -1,0 +1,54 @@
+body{
+    padding:0 200px;
+    background-color: antiquewhite;
+}
+h1 , p {
+    text-align: center;
+}
+.block1{
+    width:25%;
+}
+.row{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#row1{
+    color:cadetblue;
+}
+.number{
+    color:white;
+    background-color: cadetblue;
+    padding:5px;
+    border-radius: 100%;
+    width:25px;
+    height:25px;
+    text-align: center;
+}
+.square h4, p{
+    margin:0;
+}
+.square p{
+    color:gray;
+}
+.square h6{
+    text-align: right;
+    font-weight: lighter;
+    margin: 0;
+    color:gray;
+}
+.square{
+    background-color: aliceblue;
+    padding: 10px;
+    border: 1px solid grey;
+    border-top:none;
+}
+#first{
+    border-top:1px solid grey;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#last{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
