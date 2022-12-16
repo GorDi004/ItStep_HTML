@@ -1,0 +1,82 @@
+body{
+    background-color: cadetblue;
+}
+.image{
+    height:20rem;
+    position:absolute;
+    left:30%;
+    z-index: 1;
+}
+.img{
+    height:5rem;
+    position:absolute;
+    left:35%;
+    top:15%;
+    transition:1s;
+    z-index: 0;
+}
+.father:hover #img1{
+    height:20rem;
+    left:2%;
+    top:0;
+}
+.father:hover #img2{
+    height:20rem;
+    left:16%;
+    top:0;
+}
+.father:hover #img2{
+    height:20rem;
+    left:16%;
+    top:0;
+}
+.father:hover #img3{
+    height:20rem;
+    left:45%;
+    top:0;
+}
+.father:hover #img4{
+    height:20rem;
+    left:60%;
+    top:0;
+}
+.father:hover #img5{
+    height:20rem;
+    left:75%;
+    top:0;
+}
+.father:hover #img6{
+    height:20rem;
+    left:2%;
+    top:45%;
+}
+.father:hover #img7{
+    height:20rem;
+    left:16%;
+    top:45%;
+}
+.father:hover #img8{
+    height:20rem;
+    left:30%;
+    top:45%;
+}
+.father:hover #img9{
+    height:20rem;
+    left:45%;
+    top:45%;
+}
+.father:hover #img10{
+    height:20rem;
+    left:60%;
+    top:45%;
+}
+.father:hover #img11{
+    height:20rem;
+    left:75%;
+    top:45%;
+}
+.father:hover #img12{
+    height:20rem;
+    left:75%;
+    top:45%;
+}

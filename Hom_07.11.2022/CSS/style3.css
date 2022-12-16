@@ -1,0 +1,318 @@
+body{
+    overflow-x: hidden;
+    padding:1rem;
+}
+.block1, .block2, .block3, .block4, .block5, .block6, .block7{
+    width:300px;
+    height:100px;
+    border:2px solid darkcyan;
+    transition: 1s;
+    margin:1rem 0;
+    color:darkcyan;
+    font-weight: bold;
+    font-size: 2rem;
+    position:relative;
+}
+.block4{
+font-size: 15px;
+}
+.block6{
+font-size: 1.5rem;
+}
+.block6 span{
+    position:absolute;
+    left:150rem;
+    width:15rem;
+    top:2.5rem;
+    transition:0.5s;
+}
+.block1:hover{
+    background-color: darkcyan;
+}
+.block2:hover{
+    background-color: darkcyan;
+    color:white;
+}
+.block3:hover{
+    width:600px;
+}
+.block4:hover{
+    width:600px;
+    font-size: 3rem;
+}
+.block5:hover{
+    margin-left: 10rem;
+    width:600px;
+}
+.block6:hover span{
+    left:10%;
+}
+
+
+.block{
+    border:1px solid black;
+    width:350px;
+    padding:5px;
+    transition:1s;
+}
+.boxes{
+    border:1px solid green;
+    padding:1rem;
+}
+.box{
+    border:1px solid red;
+    padding:10px;
+    margin:1rem;
+    margin-right: 50rem;
+    transition:1s;
+}
+.container:hover .block{
+    width:500px;
+    border-width: 2px;
+}
+.boxes:hover .box{
+    margin-right:1rem;
+}
+
+
+.l1, .l2, .l3, .l4, .l5{
+    border:1px solid red;
+    padding:10px;
+    margin:1rem;
+    margin-right: 70rem;
+    transition:1s;
+}
+.line1{
+    margin:2rem 0;
+}
+.line1:hover .l2{
+    margin-right: 50rem;
+}
+.line2:hover .l2{
+    margin-right: 70rem;
+}
+.line2:hover .l3{
+    margin-right: 50rem;
+}
+.line3:hover .l3{
+    margin-right: 70rem;
+}
+.line3:hover .l4{
+    margin-right: 50rem;
+}
+.line4:hover .l4{
+    margin-right: 70rem;
+}
+.line4:hover .l5{
+    margin-right: 50rem;
+}
+.line5:hover .l5{
+    margin-right: 70rem;
+}
+
+.square1, .square2, .square3, .square4, .square5{
+    border:1px solid red;
+    padding:10px;
+    margin:1rem;
+    margin-right: 70rem;
+    transition:1s;
+}
+.action1{
+    margin:2rem 0;
+}
+.action1:hover .square2{
+    margin-right: 50rem;
+}
+.action1:hover .square3{
+    margin-right: 50rem;
+}
+.action1:hover .square4{
+    margin-right: 50rem;
+}
+.action1:hover .square5{
+    margin-right: 50rem;
+}
+
+.action2:hover .square2{
+    margin-right: 70rem;
+}
+.action2:hover .square3{
+    margin-right: 50rem;
+}
+.action2:hover .square4{
+    margin-right: 50rem;
+}
+.action2:hover .square5{
+    margin-right: 50rem;
+}
+
+.action3:hover .square3{
+    margin-right: 70rem;
+}
+.action3:hover .square4{
+    margin-right: 50rem;
+}
+.action3:hover .square5{
+    margin-right: 50rem;
+}
+
+.action4:hover .square4{
+    margin-right: 70rem;
+}
+.action4:hover .square5{
+    margin-right: 50rem;
+}
+
+.action5:hover .square5{
+    margin-right: 70rem;
+}
+
+.row1, .row2, .row3, .row4, .row5{
+    border:1px solid red;
+    padding:10px;
+    margin:1rem;
+    margin-right: 70rem;
+    transition:1s;
+}
+.act1{
+    margin:2rem 0;
+}
+.act1:hover .row3{
+    margin-right: 50rem;
+}
+
+.act2:hover .row3{
+    margin-right: 70rem;
+}
+.act2:hover .row4{
+    margin-right: 50rem;
+}
+
+.act3:hover .row4{
+    margin-right: 70rem;
+}
+.act3:hover .row5{
+    margin-right: 50rem;
+}
+.act4:hover .row4{
+    margin-right: 70rem;
+}
+.act4:hover .row5{
+    margin-right: 70rem;
+}
+
+.rect {
+    height: 30px;
+    margin: 20px;
+    padding-top:10px;
+    padding-left:10px;
+    border: 3px solid cadetblue;
+    position: relative;
+    color: cadetblue;
+    transition: 3s;
+    text-align:justify;
+}
+.rect2 {
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: -200rem;
+    padding-top:10px;
+    padding-left:10px;
+    border: 3px solid rgb(12, 94, 80);
+    position: relative;
+    background-color: rgb(12, 94, 80);
+    color:cornsilk;
+    transition: 1s;
+    text-align:justify;
+}
+.rect:hover .rect2{
+    margin-left:40rem;
+    transition: 0.5s;
+}
+
+
+.div1, .div2, .div3, .div4, .div5{
+    border:1px solid red;
+    padding:10px;
+    margin:1rem;
+    margin-right: 70rem;
+    transition:margin-right 5s .5s;
+}
+.div2{
+    transition: margin-right 7s .5s;
+}
+.div3{
+    transition: 4s;
+}
+.div4{
+    transition: 4s;
+}
+.div5{
+    transition: 5s;
+}
+.divs{
+    margin-top:7rem;
+}
+.divs:hover .div1{
+    margin-right: 2rem;
+}
+.divs:hover .div2{
+    margin-right: 2rem;
+}
+.divs:hover .div3{
+    margin-right: 2rem;
+}
+.divs:hover .div4{
+    margin-right: 2rem;
+    background-color: red;
+    transition: 8s;
+}
+.divs:hover .div5{
+    margin-right: 2rem;
+    background-color: red;
+    transition: 15s;
+}
+
+.brick1{
+    width:100px;
+    height:25px;
+    border:1px solid red;
+    background-color: white;
+    position:relative;
+    left:40%;
+    z-index:10;
+    margin:10px;
+    z-index: 0;
+    top:5rem;
+}
+.brick2{
+    width:102px;
+    height:27px;
+    background-color: black;
+    position:relative;
+    left:45%;
+    margin:10px;
+    transition:2s;
+}
+.brick3{
+    width:102px;
+    height:27px;
+    background-color: black;
+    position:relative;
+    left:37%;
+    top: 3rem;
+    margin:10px;
+    z-index: 0;
+    transition:2s;
+}
+.bricks{
+    margin:7rem 0;
+    position: relative;
+}
+.bricks:hover .brick2{
+    top:5.3rem;
+}
+.bricks:hover .brick3{
+    left:45%;
+}

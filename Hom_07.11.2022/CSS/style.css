@@ -1,0 +1,36 @@
+body{
+    background-color: orange;
+}
+.frame{
+    width:30rem;
+    height:20rem;
+    border:1rem solid white;
+    margin:0 auto;
+    margin-top: 10%;
+    display: flex;
+}
+.green{
+    background-color: green;
+    width:15rem;
+    height:20rem;
+}
+.text{
+    display: none;
+}
+.frame:hover > .green{
+    transform: skewY(170deg);
+    margin-right:100px;
+}
+.frame:hover > .yellow{
+    transform: skewY(10deg);
+    margin-left:100px;
+}
+.frame:hover > .text{
+    display: block;
+    margin-top: 30%;
+}
+.yellow{
+    background-color: yellow;
+    width:15rem;
+    height:20rem;
+}
