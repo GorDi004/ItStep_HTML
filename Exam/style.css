@@ -1,0 +1,562 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+body{
+    padding:0;
+    margin:0;
+    overflow-x: hidden;
+}
+*{
+    padding:0;
+    margin:0;
+}
+.header-main{
+    background-image: url("./photos/Pizza_1.png");
+    background-size: cover;
+    height: 1000px;
+}
+.header{
+    display: flex;
+    padding-top: 30px;
+}
+.header h1{
+    font-size: 33px;
+    letter-spacing: 2px;
+    color: #ffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    width: 350px;
+    height: 50px;
+    text-align: right;
+    background-color: #ffba00;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-top: -2%;
+}
+.menu li{
+    list-style-type: none;
+    padding:0 3rem;
+    font-size: 33px;
+    letter-spacing: 2px;
+    line-height: 104px;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: "Lato";
+}
+.yellow-line{
+    margin-top: 20%;
+    height: 198px;
+    background-color: #ffba00;
+    padding-left:10%;
+}
+.yellow-line h1{
+    font-size: 125px;
+    line-height: 104px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bolder;
+    font-family: "Montserrat";
+}
+.yellow-line h2{
+    font-size: 125px;
+    line-height: 104px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Montserrat";
+}
+.column{
+    position: relative;
+    top: 44px;
+}
+.button{
+    font-size: 38px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    text-align: right;
+    width: 340px;
+    height: 85px;
+    background-color: #ffba00;
+    border: 4px solid #ffffff;
+    margin-left: 550px;
+}
+.button p{
+    margin-top:20px;
+    margin-right: 10px;
+}
+.col{
+    display: flex;
+}
+
+.part-1{
+    background-color: #242424;
+    display: flex;
+    justify-content:end;
+    padding:70px 0;
+    padding-bottom:140px;
+}
+.part-1 span{
+    font-size: 50px;
+    letter-spacing: 4px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Montserrat";
+}
+#rotate{
+    transform: rotate(270deg);
+    clear: both;
+    display: inline-block;
+    white-space: nowrap;
+    position:absolute;
+    left:30px;
+    top:1225px;
+    z-index: 2;
+}
+.text{
+    font-size: 35px;
+    letter-spacing: 8px;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: "Lato";
+    width:1000px;
+    position:relative;
+    right:270px;
+    top:40px;
+    z-index:2;
+}
+.text p{
+    font-weight: 100;
+    padding:20px 0;
+}
+.yellow-square{
+    width: 70%;
+    height: 190px;
+    background-color: #ffba00;
+    position:absolute;
+    z-index:1;
+    left:10%;
+    top:1175px;
+}
+.part-1 img{
+    height:400px;
+    z-index:0;
+    position:absolute;
+}
+
+.part-2{
+    display: flex;
+    justify-content: space-around;
+    padding:70px 0;
+}
+.txt{
+    width:300px;
+}
+.txt h2{
+    font-size: 29px;
+    line-height: 33px;
+    color: #ffba00;
+    font-weight: 900;
+    font-family: "Montserrat";
+}
+.txt p{
+    font-size: 17px;
+    line-height: 25px;
+    color: #000000;
+    font-weight: 500;
+    font-family: "Lato";
+}
+
+.part-3{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("./photos/Pizza_3.png");
+    background-size: cover;
+    padding:70px;
+}
+.part-3 h1{
+    font-size: 42px;
+    letter-spacing: 2px;
+    color: #ffba00;
+    font-weight: 500;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.part-3 h2{
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #ffba00;
+    font-weight: 500;
+    font-family: "Montserrat";
+    text-align: center;
+    margin:0 auto;
+    margin-top: 20px;
+    height: 130px;
+    width:500px;
+}
+.white-frame{
+    position:absolute;
+    width: 1180px;
+    height: 130px;
+    border: 2px solid #ffffff;
+    top:1955px;
+    right:0;
+}
+.yellow-field{
+    width: 940px;
+    height: 413px;
+    background-color: #ffba00;
+    margin-top:100px;
+    position:absolute;
+    right:0;
+    z-index:0;
+}
+.context{
+    width: 650px;
+    height: 540px;
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Lato";
+    margin-top:140px;
+    position:relative;
+    left:40%;
+}
+.context p {
+    padding:20px 0;
+    z-index:1;
+}
+.dolars h3{
+    font-size: 33px;
+    line-height: 54px;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: "Lato";
+    padding:40px 0;
+}
+.dolars{
+    position:absolute;
+    top:2240px;
+    right:200px;
+    z-index: 1;
+}
+.yellow-column{
+    width: 65px;
+    height: 370px;
+    background-color: #ffda00 ;
+    position:absolute;
+    top:2285px;
+    right:180px;
+    z-index: 0;
+}
+.yellow-column-2{
+    width: 65px;
+    height: 120px;
+    background-color: rgba(255,218,0, 25%) ;
+    position:absolute;
+    top:2650px;
+    right:180px;
+    z-index: 0;
+}
+.contxt{
+    width: 265px;
+    height: 120px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 42px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Lato";
+    margin:0 auto;
+}
+.white-frame-2{
+    position:absolute;
+    width: 936px;
+    height: 159px;
+    border: 2px solid #ffffff;
+    top:2805px;
+    right:180px;
+}
+
+.part-4{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px;
+    background-color: #242424 ;
+}
+.part-4 h1{
+    font-size: 42px;
+    letter-spacing: 2px;
+    color: #ffba00;
+    font-weight: 400;
+    font-family: "Lato";
+}
+.part-4 span{
+    font-weight: bolder;
+}
+.part-4 p{
+    margin:20px auto;
+    width: 714px;
+    height: 74px;
+    font-size: 19px;
+    line-height: 33px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Raleway";
+    text-align: center;
+    margin-bottom: 60px;
+}
+.part-4 ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+    justify-content: space-around;
+    width:600px;
+    margin:auto;
+}
+
+.part-5{
+    background-image: url("./photos/Pizza_4.png");
+    background-size: cover;
+    padding: 3% 10%;
+    height:1000px;
+}
+.part-5 h2{
+    font-size: 42px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: "Lato";
+    text-align: right;
+    padding-bottom:10%;
+}
+.card{
+    width: 536px;
+    height: 600px;
+    background-color: #ffba00;
+    margin-left:60%;
+    z-index: 0;
+}
+.part-5 h1{
+    font-size: 50px;
+    line-height: 50px;
+    width:500px;
+    margin-right: 0;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Lato";
+    position:relative;
+    z-index:1;
+    top:-500px;
+    left:760px;
+}
+.part-5 p{
+    font-size: 42px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: "Lato";
+    position:relative;
+    top:-465px;
+    left:65%;
+}
+.part-5 h3{
+    font-size: 42px;
+    line-height: 50px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Lato";
+    text-align: right;
+    position:relative;
+    top:-400px;
+}
+.apply{
+    width: 469px;
+    height: 119px;
+    background-color: #ffba00;
+    position:relative;
+    top:-300px;
+    left:65%;
+}
+.apply h4{
+    font-size: 42px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: "Lato";
+    position:relative;
+    top:40%;
+    left:10%;
+}
+
+.part-6{
+    background-color: #242424;
+}
+.row{
+    display: flex;
+    padding-left: 20%;
+}
+.block{
+    width:150px;
+    background-color: #ffba00;
+}
+.part-6 h2{
+    font-size: 42px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffba00;
+    font-weight: 900;
+    font-family: "Montserrat";
+    margin-top: 90px;
+    padding:30px 50px;
+}
+.image{
+    display: flex;
+    justify-content: space-between;
+    height:300px;
+}
+.img1{
+    width:800px;
+    height:300px;
+    background-image: url("./photos/Pizza_5.png");
+    background-size: cover;
+}
+.img2{
+    width:300px;
+    height:300px;
+    background-image: url("./photos/Pizza_6.png");
+    background-size: cover;
+}
+.img3{
+    width:400px;
+    height:300px;
+    background-image: url("./photos/Pizza_7.png");
+    background-size: cover;
+}
+.part-6 h1{
+    font-size: 42px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.container{
+    display: flex;
+}
+.contains{
+    margin-top: 5%;
+}
+.block-2{
+    width:170px;
+    background-color: #ffba00;
+    height:500px;
+    margin-left: 20%;
+}
+.row-1{
+    display: flex;
+    align-items: center;
+    position:relative;
+    top:10%;
+    left:-15%;
+}
+.row-1 > p {
+    width: 450px;
+    height: 238px;
+    font-size: 25px;
+    line-height: 42px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Lato";
+}
+.contains h4{
+    font-size: 19px;
+    line-height: 33px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+    text-align: center;
+    margin-top: 5rem;
+    margin-left: -6rem;
+}
+.column-1{
+    margin-top: -30px;
+    margin-left: 150px;
+}
+.box{
+    padding:20px;
+}
+.box p{
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Lato";
+}
+.box h3{
+    font-size: 33px;
+    color: #ffba00;
+    font-weight: 900;
+    font-family: "Lato";
+}
+.row-2{
+    display: flex;
+}
+.row-2 img{
+    height:50px;
+    padding:3px;
+}
+
+.footer{
+    background-color: #483500;
+    display: flex;
+    padding:100px;
+    justify-content: space-around;
+}
+.footer p{
+    width: 388px;
+    height: 140px;
+    font-size: 19px;
+    line-height: 29px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Lato";
+}
+.footer h1, h2{
+    width: 161px;
+    height: 32px;
+    font-size: 21px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+    padding-bottom:40px;
+}
+.footer h2{
+    padding-bottom: 30px;
+}
+.footer ul{
+    list-style-type: none;
+}
+.footer li{
+    width: 161px;
+    height: 17px;
+    font-size: 21px;
+    line-height: 33px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+    padding:10px 0;
+}
